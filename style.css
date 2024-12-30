@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.header-section{
+    background-image: url(Pink\ Rose\ Image\ Beauty\ Make-up\ YouTube\ Banner.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero{
+    color: white;
+    font-size: 80px;
+    margin-left: 360px;
+}
+
+.hero-1{
+    color: white;
+    font-size: 60px;
+}
+
+.button{
+    background-color: palevioletred !important;
+    color: aliceblue !important;
+    font-size: 30px !important;
+    margin-left: 500px;
+    transition: 3s ease;
+}
+
+.button:hover{
+    background-color :pink !important;
+    color: black !important;
+    
+}
+
+.button-1{
+    background-color: palevioletred !important;
+    color: aliceblue !important;
+    font-size: 20px !important;
+    transition: 3s ease;
+    
+}
+
+.button-1:hover{
+    background-color :pink !important;
+    color: black !important;
+    
+}
+
+
+
+/* responsive */
+
+/* hero section */
+
+@media screen and (max-width: 1133px) {
+    .hero{
+        font-size: 60px;
+        margin-left: 210px;
+    }
+}
+
+@media screen and (max-width: 951px) {
+    .hero{
+        font-size: 50px;
+        margin-left: 210px;
+    }
+}
+
+@media screen and (max-width: 763px) {
+    .hero{
+        font-size: 40px;
+        margin-left: 160px;
+    }
+}
+
+@media screen and (max-width: 659px) {
+    .hero{
+        font-size: 35px;
+        margin-left: 150px;
+    }
+}
+@media screen and (max-width: 561px) {
+    .hero{
+        font-size: 30px;
+        margin-left: 110px;
+    }
+}
+@media screen and (max-width: 475px) {
+    .hero{
+        font-size: 25px;
+        margin-left: 90px;
+    }
+}
+@media screen and (max-width: 383px) {
+    .hero{
+        font-size: 20px;
+        margin-left: 85px;
+    }
+}
+@media screen and (max-width: 339px) {
+    .hero{
+        font-size: 20px;
+        margin-left: 80px;
+    }
+}
+
+/* hero section-1 */
+@media screen and (max-width: 1133px) {
+    .hero-1{
+        font-size: 50px;
+    
+    }
+}
+
+@media screen and (max-width: 951px) {
+    .hero-1{
+        font-size: 40px;
+    
+    }
+}
+
+@media screen and (max-width: 763px) {
+    .hero-1{
+        font-size: 35px;
+        
+    }
+}
+@media screen and (max-width: 659px) {
+    .hero-1{
+        font-size: 30px;
+        
+    }
+}
+@media screen and (max-width: 561px) {
+    .hero-1{
+        font-size: 25px;
+        
+    }
+}
+@media screen and (max-width: 475px) {
+    .hero-1{
+        font-size: 20px;
+        
+    }
+}
+@media screen and (max-width: 383px) {
+    .hero-1{
+        font-size: 18px;
+        
+    }
+}
+@media screen and (max-width: 339px) {
+    .hero-1{
+        font-size: 17px;
+        
+    }
+}
+
+
+/* button responsive */
+
+@media screen and (max-width: 1133px) {
+    .button{
+        font-size: 25px !important;
+        margin-left: 370px !important;
+    
+    }
+}
+
+@media screen and (max-width: 951px) {
+    .button{
+        font-size: 25px !important;
+        margin-left: 300px !important;
+    
+    }
+}
+
+@media screen and (max-width: 763px) {
+    .button{
+        font-size: 20px !important;
+        margin-left: 270px !important;
+    
+    }
+}
+@media screen and (max-width: 763px) {
+    .button{
+        font-size: 20px !important;
+        margin-left: 220px !important;
+    
+    }
+}
+@media screen and (max-width: 763px) {
+    .button{
+        font-size: 20px !important;
+        margin-left: 260px !important;
+    
+    }
+}
+@media screen and (max-width: 659px) {
+    .button{
+        font-size: 20px !important;
+        margin-left: 230px !important;
+    
+    }
+}
+@media screen and (max-width: 561px) {
+    .button{
+        font-size: 20px !important;
+        margin-left: 170px !important;
+    
+    }
+}
+@media screen and (max-width: 475px) {
+    .button{
+        font-size: 15px !important;
+        margin-left: 140px !important;
+    
+    }
+}
+@media screen and (max-width: 383px) {
+    .button{
+        font-size: 15px !important;
+        margin-left: 120px !important;
+    
+    }
+}
+@media screen and (max-width: 339px) {
+    .button{
+        font-size: 15px !important;
+        margin-left: 110px !important;
+        transition: background-color 0.5s ease;
+    }
+}
+
+
+.product-feauter {
+    padding: 60px 0px; 
+}
+
+.product-feauter h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 600;
+}
+
+.feature-card {
+    padding: 30px;
+    background-color: palevioletred;
+    border-radius: 15px;
+    box-shadow: -12px 18px 8px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 27px;
+    transition: transform 0.5 ease-out;
+}
+
+.feature-card :hover{
+    transform: translate(-10px);
+}
+
+.feature-card img {
+    margin-bottom: 20px;
+}
+
+.feature-card h5{
+    font-size: 1.7rem;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.feature-card p{
+    font-size: 1.4rem;
+    font-weight: 300;
+}
