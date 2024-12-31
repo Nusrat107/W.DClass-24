@@ -12,6 +12,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: aliceblue;
 }
 
 .hero{
@@ -251,29 +252,34 @@
 }
 
 .feature-card {
-    padding: 30px;
+    padding: 20px;
     background-color: palevioletred;
-    border-radius: 15px;
-    box-shadow: -12px 18px 8px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    box-shadow: 8px 8px 8px 5px rgba(0, 0, 0, 0.2);
     margin-bottom: 27px;
-    transition: transform 0.5 ease-out;
+    transition: transform 0.5 ease;
 }
 
-.feature-card :hover{
+.feature-card:hover{
     transform: translate(-10px);
 }
 
 .feature-card img {
     margin-bottom: 20px;
+    margin-left: 50px;
+    
 }
 
 .feature-card h5{
     font-size: 1.7rem;
     margin-bottom: 15px;
     font-weight: 600;
+    text-align: center;
 }
 
 .feature-card p{
     font-size: 1.4rem;
     font-weight: 300;
+    text-align: center;
 }
+
